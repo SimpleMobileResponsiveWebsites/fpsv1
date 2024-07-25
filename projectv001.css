@@ -1,0 +1,97 @@
+FPS Game Project
+├── main.py
+│   ├── Initializes Pygame and OpenGL
+│   ├── Sets up the display
+│   ├── Handles the main game loop
+│   ├── Integrates player, AI, environment, pickups, and inventory
+│
+├── player.py
+│   ├── draw_player
+│   ├── handle_keys
+│
+├── gear.py
+│   ├── Helmet
+│   ├── Headphones
+│   ├── ChestArmor
+│   ├── TacticalRig
+│   ├── Gun
+│   ├── Knife
+│   ├── FaceMask
+│   ├── Backpack
+│
+├── inventory.py
+│   ├── Inventory
+│   │   ├── add_gear
+│   │   ├── gear
+│   │   ├── ammo
+│   │   ├── health
+│
+├── pickup.py
+│   ├── Pickup
+│   ├── HealthPickup
+│   ├── AmmoPickup
+│
+├── ai.py
+│   ├── AI
+│   │   ├── update
+│   │   ├── draw
+│
+├── environment.py
+│   ├── EnvironmentObject
+│   ├── Tree
+│   ├── Rock
+│   ├── Lake
+│
+├── utils.py
+│   ├── display_inventory
+│   ├── load_texture
+│
+└── assets
+    └── path_to_texture_image.png
+
+[main.py]
+   |
+   |-- [player.py]
+   |     |-- draw_player
+   |     |-- handle_keys
+   |
+   |-- [gear.py]
+   |     |-- Helmet
+   |     |-- Headphones
+   |     |-- ChestArmor
+   |     |-- TacticalRig
+   |     |-- Gun
+   |     |-- Knife
+   |     |-- FaceMask
+   |     |-- Backpack
+   |
+   |-- [inventory.py]
+   |     |-- Inventory
+   |           |-- add_gear
+   |           |-- gear
+   |           |-- ammo
+   |           |-- health
+   |
+   |-- [pickup.py]
+   |     |-- Pickup
+   |     |-- HealthPickup
+   |     |-- AmmoPickup
+   |
+   |-- [ai.py]
+   |     |-- AI
+   |           |-- update
+   |           |-- draw
+   |
+   |-- [environment.py]
+   |     |-- EnvironmentObject
+   |     |-- Tree
+   |     |-- Rock
+   |     |-- Lake
+   |
+   |-- [utils.py]
+         |-- display_inventory
+         |-- load_texture
+   |
+   |-- [assets]
+         |-- path_to_texture_image.png
+
